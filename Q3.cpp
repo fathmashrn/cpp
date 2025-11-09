@@ -23,11 +23,10 @@ public:
         cout << "Length: " << length << ", Width: " << width << endl;
     }
 
-    Rectangle() {
+    ~Rectangle() {
         cout << "Destructor called: Rectangle object destroyed." << endl;
     }
 };
-
 int main() {
     cout << "Creating rectangle1 using default constructor." << endl;
     Rectangle rectangle1; 
